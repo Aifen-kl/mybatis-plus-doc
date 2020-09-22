@@ -13,7 +13,7 @@
 ```java
 public class User {
 
-    // 注意！这里需要标记为填充字段
+    // 注意！这里需要标记为填充字段 是的
     @TableField(.. fill = FieldFill.INSERT)
     private String fillField;
 
